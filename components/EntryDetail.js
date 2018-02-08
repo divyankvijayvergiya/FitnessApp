@@ -5,7 +5,8 @@ class EntryDetail extends Component {
   render() {
     return (
       <View>
-        <Text> Entry Detail</Text>
+        <Text>Entry Detail - {JSON.stringify(this.props.navigation.state.params.entryId)}
+        </Text>
       </View>
     )
   }
